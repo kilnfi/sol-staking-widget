@@ -20,3 +20,7 @@ bun dev
 ```
 bun run build
 ```
+
+## Demo
+
+https://youtu.be/Q9E02UWArdw
