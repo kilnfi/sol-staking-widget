@@ -5,7 +5,8 @@ Set up your environment:
 ```
 cp .env.example .env
 ```
-Please contact us to get your VITE_KILN_ACCOUNT_ID and VITE_KILN_API_KEY.
+
+VITE_KILN_ACCOUNT_ID and VITE_KILN_API_KEY are to be retrieved from your Kiln Dashboard. Contact us if you do not have access.
 
 
 Install dependencies and run local development server:
