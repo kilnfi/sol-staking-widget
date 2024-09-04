@@ -31,3 +31,5 @@ https://youtu.be/Q9E02UWArdw
 support@kiln.fi
 
 ©️ Copyright Kiln, all rights reserved
+
+This software is licensed under the Business Source License 1.1 (BSL 1.1). See the LICENSE file for details.
