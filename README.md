@@ -29,3 +29,5 @@ https://youtu.be/Q9E02UWArdw
 ## Contact us
 
 support@kiln.fi
+
+©️ Copyright Kiln, all rights reserved
