@@ -26,6 +26,6 @@ bun run build
 
 https://youtu.be/Q9E02UWArdw
 
-## Contact us
+## Contact us
 
 support@kiln.fi
