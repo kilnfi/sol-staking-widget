@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Base styles */
+    a,
+    tr {
+        @apply transition duration-150 ease-in;
+    }
+
+    /* Remove control on numbers input */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .text-subtitle-1 {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+
+    .text-subtitle-2 {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    .text-subtitle-3 {
+        @apply font-mono;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+    }
+
+    .text-body-1 {
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .text-body-2 {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+    }
+
+    .text-body-3 {
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+    }
+
+    .text-caption-1 {
+        @apply font-mono;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        letter-spacing: -0.03em;
+    }
+
+    .text-caption-2 {
+        @apply font-mono;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+    }
+
+    .text-caption-3 {
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+    }
+
+    .text-small-1 {
+        @apply font-mono;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+
+    .text-small-2 {
+        @apply font-mono;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+
+    .text-small-3 {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+    }
+
+    ul {
+        @apply list-inside list-disc;
+    }
+
+    ol {
+        @apply list-inside list-decimal !important;
+    }
+
+    ul, ol > li {
+        @apply mb-2;
+    }
+
+    label {
+        @apply mb-2 inline-block;
+    }
+}
+
+input[type="number"].no-arrows::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
