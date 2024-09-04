@@ -6,7 +6,7 @@ Set up your environment:
 cp .env.example .env
 ```
 
-Get `VITE_KILN_ACCOUNT_ID` and `VITE_KILN_API_KEY` [from your Kiln Dashboard]([url](https://docs.kiln.fi/v1/kiln-products/connect/accessing-kiln-connect#generating-an-api-key-by-creating-a-new-application)).
+Get `VITE_KILN_ACCOUNT_ID` and `VITE_KILN_API_KEY` [from Kiln Dashboard](https://docs.kiln.fi/v1/kiln-products/connect/accessing-kiln-connect#generating-an-api-key-by-creating-a-new-application).
 
 
 Install dependencies and run local development server:
